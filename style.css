@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark{
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+.dark .diva{
+    background-color:  rgb(38, 38, 38);
+}
+
+.dark header a{
+    color: white;
+    border-color: white;
+}
+
+.dark .sec-cont{
+    border-color: white;
+}
+
+.dark .a-isi{
+    color: white;
+}
+
+#pnh{
+    position: fixed;
+    right: 0;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    top: 10px;
+    width: fit-content;
+}
+
+.logo{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.logo a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px 20px 5px;
+    opacity: 85%;
+}
+
+header{
+    height: 280px;
+    overflow: hidden;
+    background-image: url('motorcycle resize.jpg')
+}
+
+.diva{
+    background-color: rgb(236, 236, 236);
+    width: 80%;
+    margin: auto;
+    height: 30px;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.diva a{
+    padding-left: 4px;
+    padding-right: 5px;
+    text-decoration: none;
+    border-right: 1px solid black;
+    color: black;
+    margin-top: 5px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.diva a:hover{
+    background-color: black;
+    color: rgb(236, 236, 236);
+    transition: .2s ease-in-out;
+}
+
+section{
+    padding: 40px;
+    height: 900px;
+    margin-top: 10px;
+}
+
+.leftS{
+    width: 70%;
+    float: left;
+}
+
+.sec-cont{
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.sec-cont img{
+    float: left;
+    height: 160px;
+    padding: 8px;
+}
+
+.sec-cont h1{
+    color: rgb(108, 173, 17);
+}
+
+.sec-cont p{
+    padding-bottom: 20px;
+}
+
+.a-isi{
+    text-decoration: none;
+    color: black;
+}
+
+
+.rightS{
+    width: 28%;
+    float: right;
+    margin-left: 5px;
+}
+
+.r-div input{
+    border: none;
+    height: 30px;
+    width: 70%;
+    border-top-left-radius: 15px;
+    border-end-start-radius: 15px;
+    box-shadow: inset 0px -2px 4px 0px;
+    padding-left: 5px;
+}
+
+.r-div button{
+    background-color: rgb(125, 210, 6);
+    border: none;
+    width: 10%;
+    height: 30px;
+    border-top-right-radius: 15px;
+    border-end-end-radius: 15px;
+    box-shadow: inset 0px -2px 4px 0px;
+}
+
+.r-div h1{
+    background-color: rgb(125, 210, 6);
+    color: white;
+    width: fit-content;
+}
+
+.eror {
+    color: rgb(125, 210, 6);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo{
+        top: 40px;
+        font-size: 14px;
+    }
+    .diva{
+        height: fit-content;
+        width: 90%;
+    }
+    .r-div input{
+        height: 25px;
+        width: 70%;
+    }
+    .r-div button{
+        height: 27px;
+        width: 23%;
+    }
+    .imgs img{
+        height: 165px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .logo{
+        top: 20px;
+        font-size: 8px;
+    }
+    header{
+        height: 170px;
+    }
+    .diva{
+        margin-top: 100px;
+        border-radius: 6px;
+        font-size: 8px;
+        width: 98%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    section{
+        padding: 10px;
+    }
+    .leftS{
+        width: 60%;
+    }
+    .rightS{
+        width: 38%;
+    }
+    .miguel{
+        display: flex;
+        flex-direction: row;
+    }
+    .r-div input{
+        height: 20px;
+    }
+    .r-div button{
+        height: 22px;
+        font-size: 10px;
+        width: 20%;
+        padding-right: 20px;
+    }
+    .r-div h1{
+        font-size: 18px;
+    }
+    .imgs img{
+        height: 137px;
+    }
+}
