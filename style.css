@@ -335,17 +335,17 @@ footer p{
         padding-right: 20px;
     }
     .r-div h1{
-        font-size: 18px;
+        font-size: 10px;
     }
     .imgs img{
-        height: 128px;
+        height: 110px;
     }
     .contact{
         margin-top: 90px;
-        width: 90%;
+        width: 87%;
     }
     .contact a{
-        margin-left: 5px;
+        margin-left: 2px;
         font-size: 10px;
     }
     .contact a:hover {
