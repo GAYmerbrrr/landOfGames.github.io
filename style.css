@@ -341,10 +341,11 @@ footer p{
         height: 128px;
     }
     .contact{
+        margin-top: 40px;
         width: 90%;
     }
     .contact a{
-        margin-left: 10px;
+        margin-left: 7px;
         font-size: 10px;
     }
     .contact a:hover {
