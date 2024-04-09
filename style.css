@@ -91,7 +91,7 @@ header{
 
 section{
     padding: 40px;
-    height: 900px;
+    height: 1050px;
     margin-top: 10px;
 }
 
@@ -102,7 +102,7 @@ section{
 
 .sec-cont{
     border: 2px solid black;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .sec-cont img{
@@ -116,7 +116,7 @@ section{
 }
 
 .sec-cont p{
-    padding-bottom: 20px;
+    padding-bottom: 87px;
 }
 
 .a-isi{
@@ -161,7 +161,75 @@ section{
     color: rgb(125, 210, 6);
 }
 
+.contact{
+    background-color: rgb(236, 236, 236);
+    width: 97%;
+    padding: 15px 20px;
+}
+
+.contact a{
+    margin-left: 55px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(65, 65, 65);
+}
+
+.contact a:hover{
+    background-color: rgb(125, 210, 6);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 35px;
+    box-shadow: rgb(69, 69, 69) 3px 3px 6px 0px inset, rgba(197, 226, 184, 0.432) -3px -3px 6px 1px inset;
+}
+
+.footer{
+    width: 97%;
+    padding: 15px 20px;
+    text-align: center;
+}
+footer p{
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .contact{
+        margin-top: 80px;
+        background-color: rgb(236, 236, 236);
+        width: 97%;
+        padding: 15px 20px;
+    }
+    
+    .contact a{
+        margin-left: 55px;
+        text-decoration: none;
+        font-weight: 700;
+        color: rgb(65, 65, 65);
+    }
+    
+    .contact a:hover{
+        background-color: rgb(125, 210, 6);
+        color: white;
+        border-radius: 20px;
+        padding: 5px 10px;
+        margin-left: 35px;
+        box-shadow: rgb(69, 69, 69) 3px 3px 6px 0px inset, rgba(197, 226, 184, 0.432) -3px -3px 6px 1px inset;
+    }
+    
+    .footer{
+        width: 97%;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    footer p{
+        font-weight: 700;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    section{
+        height: 700px;
+    }
     .logo{
         top: 40px;
         font-size: 14px;
@@ -169,6 +237,19 @@ section{
     .diva{
         height: fit-content;
         width: 90%;
+    }
+    .sec-cont{
+        margin-bottom: 30px;
+    }
+    .sec-cont h1{
+        font-size: 20px;
+    }
+    .sec-cont img{
+        height: 100px;
+    }
+    .sec-cont p{
+        font-size: 14px;
+        padding-bottom: 20px;
     }
     .r-div input{
         height: 25px;
@@ -179,7 +260,22 @@ section{
         width: 23%;
     }
     .imgs img{
-        height: 165px;
+        height: 156px;
+    }
+    .contact{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .contact a{
+        margin-left: 10px;
+    }
+    .contact a:hover {
+        background-color: initial; /* Mengembalikan warna latar belakang ke nilai awal */
+        color: initial; /* Mengembalikan warna teks ke nilai awal */
+        border-radius: initial; /* Mengembalikan radius sudut ke nilai awal */
+        padding: initial; /* Mengembalikan padding ke nilai awal */
+        margin-left: 10px;
+        box-shadow: initial; /* Mengembalikan bayangan ke nilai awal */
     }
 }
 
@@ -202,8 +298,22 @@ section{
         flex-wrap: wrap;
         justify-content:center;
     }
+    .sec-cont{
+        margin-bottom: 10px;
+    }
+    .sec-cont h1{
+        font-size: 20px;
+    }
+    .sec-cont img{
+        height: 97px;
+    }
+    .sec-cont p{
+        font-size: 8px;
+        padding-bottom: 20px;
+    }
     section{
         padding: 10px;
+        height: 700px;
     }
     .leftS{
         width: 60%;
@@ -228,6 +338,25 @@ section{
         font-size: 18px;
     }
     .imgs img{
-        height: 137px;
+        height: 128px;
+    }
+    .contact{
+        width: 90%;
+    }
+    .contact a{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .contact a:hover {
+        background-color: initial; /* Mengembalikan warna latar belakang ke nilai awal */
+        color: initial; /* Mengembalikan warna teks ke nilai awal */
+        border-radius: initial; /* Mengembalikan radius sudut ke nilai awal */
+        padding: 5px 5px;
+        margin-left: 5px;
+        box-shadow: initial; /* Mengembalikan bayangan ke nilai awal */
+    }
+    .footer{
+        width: 90%;
+        font-size: 10px;
     }
 }
